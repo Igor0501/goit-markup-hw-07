@@ -1,0 +1,152 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1158px;
+    }
+
+    .nav-list {
+        margin-right: 332px;
+    }
+
+    .contacts {
+        gap: 40px;
+    }
+
+    .contacts .nav-link {
+        padding-top: 24px;
+        padding-bottom: 28px;
+    }
+  .hero {
+      padding-top: 188px;
+      padding-bottom: 188px;
+      height: 600px;
+      max-width: 1440px;
+    }
+       
+    .button {
+        margin-top: 48px;
+    }
+
+    .section-about {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .section-name {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .text {
+        font-weight: 400;
+    }
+
+    .about-list {
+        gap: 24px;
+    }
+
+    .about-item {
+        width: calc((100% - 24px * 3) / 4);
+    }
+
+    /* .about-item::before {
+        content: '';
+        display: block;
+        height: 112px;
+        margin-bottom: 8px;
+        background: var(--white-milk-color);
+        border-radius: 4px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+
+    .icon-starlink::before {
+        background-image: url(../images/antenna.svg);
+    }
+    
+    .icon-clock::before {
+        background-image: url(../images/clock.svg);
+    }
+    
+    .icon-screen::before {
+        background-image: url(../images/diagram.svg);
+    }
+    
+    .icon-robot::before {
+        background-image: url(../images/astronaut.svg);
+    } */
+
+
+
+    .section-doing {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 120px;
+    }
+
+    .doing-list {
+        display: flex;
+        gap: 24px;
+    }
+
+
+    .section-team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-list {
+        gap: 24px;
+    }
+
+    .section-team-list {
+        width: calc((100% - 24px * 3) / 4);
+    }
+
+
+    .section-customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .item-customers {
+        width: calc((100% - 24px * 5) / 6);
+    }
+
+    .section-portfolio {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
+    .filter-button-list {
+        margin-bottom: 72px;
+    }
+
+    .portfolio-list {
+        row-gap: 40px;
+    }
+
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .first-footer {
+        margin-right: 120px;
+    }
+
+    .second-footer {
+    margin-right: 80px;
+}
+.modal {
+    top: 50%;
+    width: 408px;
+    height: 586px;
+    transform: translate(-50%, -50%) scale(1);
+}
+}
+
+
+

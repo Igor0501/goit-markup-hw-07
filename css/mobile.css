@@ -1,0 +1,78 @@
+
+@media screen and (max-width: 480px) {
+    .modal {
+        max-width: 95%;
+        top: 400px;
+    }
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-mob-1x.jpg);
+    }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-mob-2x.jpg);
+    }
+}        
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        width: 428px;
+        justify-content: center;
+    }
+
+    .hero {
+        height: 432px;
+    }
+
+    .hero-title {
+        width: 318px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .header-container {
+        justify-content: space-between;
+    }
+
+    .about-list {
+    flex-direction: column;
+    gap: 72px;
+    }
+
+    .filter-button-list {
+        flex-wrap: wrap;
+        row-gap: 16px;
+        column-gap: 23px;
+        margin-bottom: 48px;
+    }
+
+    .button-portfolio {
+        padding: 8px 16px;
+    }
+
+    .section-portfolio-list {
+        margin-bottom: 48px;
+    }
+
+    .first-footer {
+        margin: 0 auto;
+        margin-bottom: 72px;
+        max-width: 268px;
+    }
+
+    .second-footer {
+        margin-bottom: 72px;
+    }
+
+    .footer-input {
+        margin-bottom: 16px;
+    }
+}
