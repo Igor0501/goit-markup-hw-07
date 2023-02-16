@@ -49,36 +49,6 @@
         width: calc((100% - 24px * 3) / 4);
     }
 
-    /* .about-item::before {
-        content: '';
-        display: block;
-        height: 112px;
-        margin-bottom: 8px;
-        background: var(--white-milk-color);
-        border-radius: 4px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    
-
-    .icon-starlink::before {
-        background-image: url(../images/antenna.svg);
-    }
-    
-    .icon-clock::before {
-        background-image: url(../images/clock.svg);
-    }
-    
-    .icon-screen::before {
-        background-image: url(../images/diagram.svg);
-    }
-    
-    .icon-robot::before {
-        background-image: url(../images/astronaut.svg);
-    } */
-
-
-
     .section-doing {
         display: block;
         padding-top: 0;

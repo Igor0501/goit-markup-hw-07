@@ -1,8 +1,6 @@
 {
     "recommendations": [
-        "pranaygp.vscode-css-peek",
-        "akamud.vscode-theme-onedark",
-        "mrmlnc.vscode-postcss-sorting",
-        "pascalreitermann93.vscode-yaml-sort"
+        "rvest.vs-code-prettier-eslint",
+        "seyyedkhandon.firacode"
     ]
 }
