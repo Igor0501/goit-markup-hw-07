@@ -635,12 +635,8 @@
         <form class="form">
           <p class="social-text-footer">Subscribe</p>
           <div class="footer-form-wrap">
-              <input
-                class="footer-input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-              />
+              <input class="footer-input" type="email" name="user-email" placeholder="E-mail"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" method="post" required/>
             <button class="btn-footer" type="submit">
               <span class="footer-btn-text">Subscribe</span>
               <svg class="footer-icon" width="24" height="24">
