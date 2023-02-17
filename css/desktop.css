@@ -16,10 +16,10 @@
         padding-bottom: 28px;
     }
   .hero {
+      max-width: 1440px;
+      height: 600px;
       padding-top: 188px;
       padding-bottom: 188px;
-      height: 600px;
-      max-width: 1440px;
     }
        
     .button {

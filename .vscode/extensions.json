@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "rvest.vs-code-prettier-eslint",
-        "seyyedkhandon.firacode"
+        "seyyedkhandon.firacode",
+        "andrewbeletskiy.sort-css-rules"
     ]
 }
